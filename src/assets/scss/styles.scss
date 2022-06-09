@@ -1,1 +1,11 @@
 @import 'components/variables';
+@import 'components/comments';
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 650px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;

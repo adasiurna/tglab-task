@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import './assets/scss/styles.scss';
 import Photos from "./containers/photos/Photos";
 
 function App() {
