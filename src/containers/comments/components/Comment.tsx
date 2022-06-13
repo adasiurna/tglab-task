@@ -3,17 +3,14 @@ import { Row, Col } from 'reactstrap';
 
 const Comment = () => {
   return (
-    <div className="mb-3">
+    <div className="p-2 comment-container">
       <Row className="comment-card">
         <Col xs="auto">
-          <img
-            alt="user image"
-            src={require('../../../assets/img/photo-1.jpg')}
-            width="40px"
-          />
+          <div className="comment-card__img"></div>
+          <div className="overlay"></div>
         </Col>
         <Col>
-          <div className="comment-card__username">
+          <div className="comment-card__username mt-2">
             Lorem Ipsum
           </div>
         </Col>

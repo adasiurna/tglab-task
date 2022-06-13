@@ -1,5 +1,11 @@
+@import "bootstrap/scss/bootstrap";
 @import 'components/variables';
+@import 'components/typhography';
+@import 'components/cards';
 @import 'components/comments';
+@import 'components/img';
+@import 'components/scrollbar';
+@import 'components/header.scss';
 
 $grid-breakpoints: (
   xs: 0,

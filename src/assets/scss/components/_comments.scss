@@ -1,7 +1,100 @@
+.col__comments {
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: clip;
+
+  @include media-breakpoint-up(md) {
+    height: unset;
+    position: relative;
+    overflow: auto;
+
+    .comments-container {
+      position: absolute;
+      overflow-x: clip;
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    position:unset;
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: clip;
+
+    .comments-container {
+      position: unset;
+      overflow-x: unset;
+    }
+  }
+}
+
+.position-relative {
+  overflow: auto;
+}
+
+.position-absolute {
+  background: #dadada;
+  overflow-x: clip;
+}
+
 .comment-card__username {
-  font-size: 1.5rem;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .comment-card__coment {
   margin-left: 64px;
+  font-size: 12px;
+  line-height: 14px;
 }
+
+.comment-card__img {
+  background: #444;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.col__comments {
+  background: $grey-3-color;
+}
+
+.add-comment-form {
+  width: 95%;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 30px;
+  overflow: hidden;
+
+  .add-comment-form__input {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: #3c3c3c;
+    
+    &::placeholder {
+      color: $white-color;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+
+  .add-comment-form__button {
+    border: none;
+    outline: none;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: $white-color;
+    background: $grey-2-color;
+  }
+}
+
+.comment-container {
+  border-bottom: 1px solid darken($white-color, 50%);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+

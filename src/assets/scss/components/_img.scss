@@ -1,0 +1,34 @@
+.img-container > .card {
+  background: lighten($grey-4-color, 25%);
+}
+
+.card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.card-container__img {
+  border-radius: 10px;
+  opacity: 0;
+
+  &:hover {
+    opacity: .8;
+    transition: .5s ease-in .5s;
+  }
+}
+
+.comment-card__img {
+  border-radius: 50%;
+}
+
+.img-container__overlay {
+  background: $grey-2-color;
+  border: solid 1rem lighten($grey-4-color, 25%);
+  border-radius: 30px;
+  overflow: hidden;
+
+  &:hover {
+    background: lighten($grey-4-color, 25%);
+    transition: .5s ease-in .5s;
+  }
+}

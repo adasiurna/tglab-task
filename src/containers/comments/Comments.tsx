@@ -1,14 +1,16 @@
 import React from 'react';
-import { Col } from 'reactstrap';
 import Comment from './components/Comment';
+import AddCommentForm from './components/AddCommentForm';
 
 const Comments = () => {
   return (
-    <Col>
+    <>
+    <AddCommentForm />
       <Comment />
       <Comment />
       <Comment />
-    </Col>
+      <Comment />
+    </>
   )
 }
 

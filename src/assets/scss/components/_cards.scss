@@ -1,0 +1,26 @@
+.card {
+  border: none;
+  border-radius: 0;
+}
+
+.card-title {
+  font-size: 23px;
+
+  .card-text {
+    font-size: 15px;
+
+    small {
+      font-size: 12px;
+      color: $white-color;
+    }
+  }
+}
+
+.card-body {
+  background: lighten($grey-4-color, 25%);
+}
+
+.card-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
