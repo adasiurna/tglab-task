@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tglab-task/static/css/main.a898a23a.css",
+    "main.js": "/tglab-task/static/js/main.89854c42.js",
+    "static/media/photo-3.jpg": "/tglab-task/static/media/photo-3.a8241095815b946e832f.jpg",
+    "static/media/photo-1.jpg": "/tglab-task/static/media/photo-1.52f9b1302fe099be168c.jpg",
+    "static/media/photo-2.jpg": "/tglab-task/static/media/photo-2.35214c6ab7a19af2c216.jpg",
+    "index.html": "/tglab-task/index.html",
+    "main.a898a23a.css.map": "/tglab-task/static/css/main.a898a23a.css.map",
+    "main.89854c42.js.map": "/tglab-task/static/js/main.89854c42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a898a23a.css",
+    "static/js/main.89854c42.js"
+  ]
+}
