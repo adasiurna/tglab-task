@@ -35,7 +35,7 @@ function App() {
       <Container className="px-5">
       {photos.map((photo, i) => {
         return (
-        <h2 className="py-4 mx-5 text-center mobile-container__photo-name" key={i}>
+        <h2 className="py-4 mx-3 text-center mobile-container__photo-name" key={i}>
           {photo.photoName}
         </h2>
         )
